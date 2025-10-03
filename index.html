@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delícias da Cii - Confeitaria artesanal com bolos, doces e sobremesas gourmet">
+    <title>Delícias da Cii - Confeitaria Artesanal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#" class="logo-link">
+                    <div class="logo-simbolo">
+                        <img src="srcs/logo.png" alt="Logo Delícias da Cii">
+                    </div>
+                    <h1 class="logo-texto">Delícias da Cii</h1>
+                </a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav-principal">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#produtos" class="menu-link">Produtos</a></li>
+                    <li class="menu-item"><a href="#sobre" class="menu-link">Sobre</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="busca">
+                <form action="#" method="get" class="busca-form">
+                    <input type="text" placeholder="Buscar..." class="busca-input">
+                    <button type="submit" class="busca-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Delícias da Cii</h2>
+                    <p class="hero-subtitle">Sabores artesanais que encantam todos os sentidos</p>
+                    <a href="#produtos" class="btn btn-primary">Conheça Nossos Produtos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="categorias" id="categorias">
+            <div class="container">
+                <h2 class="section-title">Nossas Especialidades</h2>
+                <div class="categorias-grid">
+                    <article class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                        <h3 class="categoria-title">Mini Brownies</h3>
+                        <p class="categoria-desc">Adoráveis e irresistíveis</p>
+                    </article>
+                    
+                    <article class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h3 class="categoria-title">Bolos Gourmet</h3>
+                        <p class="categoria-desc">Recheio Premium</p>
+                    </article>
+                    
+                    <article class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-candy-cane"></i>
+                        </div>
+                        <h3 class="categoria-title">Doces Festivos</h3>
+                        <p class="categoria-desc">Para Celebrações</p>
+                    </article>
+                    
+                    <article class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-cookie-bite"></i>
+                        </div>
+                        <h3 class="categoria-title">Cookies Caseiros</h3>
+                        <p class="categoria-desc">Decorados com carinho</p>
+                    </article>
+                    
+                    <article class="categoria-card">
+                        <div class="categoria-icon">
+                            <i class="fas fa-cheese"></i>
+                        </div>
+                        <h3 class="categoria-title">Tortas Especiais</h3>
+                        <p class="categoria-desc">Receitas Únicas</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos" id="produtos">
+            <div class="container">
+                <h2 class="section-title">Produtos em Destaque</h2>
+                <div class="produtos-grid">
+                    <article class="produto-card">
+                        <div class="produto-img">
+                            <img src="srcs/delicias da cii.jpg" alt="Cupcake Floral">
+                            <div class="produto-tag">Destaque</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-title">Cupcake Floral</h3>
+                            <p class="produto-desc">Delicioso cupcake decorado com flores comestíveis e recheio cremoso</p>
+                            <div class="produto-footer">
+                                <span class="produto-preco">R$ 15,00</span>
+                                <button class="btn btn-secondary">Encomendar</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="produto-img">
+                            <img src="srcs/delicias da cii.jpg" alt="Bolo Clássico">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-title">Bolo Clássico</h3>
+                            <p class="produto-desc">Bolo tradicional com cobertura artesanal e decoração elegante</p>
+                            <div class="produto-footer">
+                                <span class="produto-preco">R$ 85,00</span>
+                                <button class="btn btn-secondary">Encomendar</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="produto-img">
+                            <img src="srcs/delicias da cii.jpg" alt="Torta Premium">
+                            <div class="produto-tag">Novo</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-title">Torta Premium</h3>
+                            <p class="produto-desc">Torta especial com camadas delicadas e frutas frescas</p>
+                            <div class="produto-footer">
+                                <span class="produto-preco">R$ 95,00</span>
+                                <button class="btn btn-secondary">Encomendar</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="produto-img">
+                            <img src="srcs/delicias da cii.jpg" alt="Cookie Decorado">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-title">Cookie Decorado</h3>
+                            <p class="produto-desc">Cookie artesanal com decoração personalizada</p>
+                            <div class="produto-footer">
+                                <span class="produto-preco">R$ 8,00</span>
+                                <button class="btn btn-secondary">Encomendar</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="produto-img">
+                            <img src="srcs/delicias da cii.jpg" alt="Mini Torta">
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-title">Mini Torta</h3>
+                            <p class="produto-desc">Porção individual de torta com massa crocante</p>
+                            <div class="produto-footer">
+                                <span class="produto-preco">R$ 22,00</span>
+                                <button class="btn btn-secondary">Encomendar</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-card">
+                        <div class="produto-img">
+                            <img src="srcs/delicias da cii.jpg" alt="Brownie Gourmet">
+                            <div class="produto-tag">Popular</div>
+                        </div>
+                        <div class="produto-info">
+                            <h3 class="produto-title">Brownie Gourmet</h3>
+                            <p class="produto-desc">Brownie artesanal com chocolate belga premium</p>
+                            <div class="produto-footer">
+                                <span class="produto-preco">R$ 18,00</span>
+                                <button class="btn btn-secondary">Encomendar</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <div class="sobre-grid">
+                    <div class="sobre-img">
+                        <img src="srcs/delicias da cii.jpg" alt="Sobre Delícias da Cii">
+                    </div>
+                    <div class="sobre-content">
+                        <h2 class="section-title">Sobre Nós</h2>
+                        <p class="sobre-text">Delícias da Cii nasceu da paixão por confeitaria e do desejo de transformar momentos em memórias doces e inesquecíveis.</p>
+                        <p class="sobre-text">Cada produto é feito artesanalmente com ingredientes selecionados e muito carinho, garantindo sabor único e qualidade excepcional.</p>
+                        <p class="sobre-text">Nossa missão é encantar através de sabores autênticos e apresentações deslumbrantes, trazendo felicidade em cada mordida.</p>
+                        <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 class="section-title">Receba Nossas Novidades</h2>
+                    <p class="newsletter-text">Inscreva-se para receber promoções exclusivas e lançamentos em primeira mão</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu melhor e-mail" class="newsletter-input" required>
+                        <button type="submit" class="btn btn-primary">Inscrever-se</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">Delícias da Cii</h3>
+                    <p class="footer-text">Confeitaria artesanal com produtos feitos com amor e dedicação para tornar seus momentos ainda mais especiais.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Contato</h3>
+                    <ul class="footer-info">
+                        <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+                        <li><i class="fas fa-envelope"></i> contato@deliciasdacii.com.br</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Horários</h3>
+                    <ul class="footer-info">
+                        <li>Segunda a Sexta: 9h às 18h</li>
+                        <li>Sábado: 9h às 14h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Delícias da Cii. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
