@@ -773,3 +773,20 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
+/* TABLET - Ajusta um pouco */
+@media (max-width: 768px) {
+    .hero {
+        background-position: 80% center;  /* Mostra mais da esquerda */
+        padding: 60px 20px;
+    }
+}
+
+/* MOBILE - Mostra a bonequinha */
+@media (max-width: 576px) {
+    .hero {
+        background-position: 80% center;  /* Foca na bonequinha */
+        padding: 40px 15px;
+        height: 50vh;
+    }
+}
